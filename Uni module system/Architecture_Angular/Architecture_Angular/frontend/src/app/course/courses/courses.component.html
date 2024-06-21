@@ -1,0 +1,20 @@
+<h1 style="font-weight: bold;">Course Listing</h1>
+
+<div class="row">
+  <div class="col-md-4" *ngFor="let course of courses">
+    <div class="card mb-3" style="width: 18rem;">
+      <div class="card-header">
+        <h5 class="card-title"><strong>{{ course.name }}</strong></h5>
+        <h6 class="card-subtitle mb-2 text-muted">Duration: {{ course.duration }}</h6>
+      </div>
+      <div class="card-body">
+        <p class="card-text">Description: {{ course.description }}</p>
+      </div>
+      <div class="card-footer d-flex justify-content-between">
+        <a href="/edit-course/{{ course.courseId }}" class="btn btn-primary">Edit</a>
+        <a href="#" class="btn btn-danger" (click)="deleteCourse(course.courseId)" >Delete</a>
+      </div>
+    </div>
+  </div>
+</div>
+         

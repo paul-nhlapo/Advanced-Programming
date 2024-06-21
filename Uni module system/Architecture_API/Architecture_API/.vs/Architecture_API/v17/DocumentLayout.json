@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\Academics\\2024\\S1\\INF 354 INFORMATICS\\Assignments\\HWA01_u18108378\\Architecture_API\\Architecture_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{900DB5C7-0826-413D-A8C8-730BDF7F7998}|Architecture_API.csproj|c:\\users\\user\\documents\\academics\\2024\\s1\\inf 354 informatics\\assignments\\hwa01_u18108378\\architecture_api\\architecture_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{900DB5C7-0826-413D-A8C8-730BDF7F7998}|Architecture_API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Academics\\2024\\S1\\INF 354 INFORMATICS\\Assignments\\HWA01_u18108378\\Architecture_API\\Architecture_API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Documents\\Academics\\2024\\S1\\INF 354 INFORMATICS\\Assignments\\HWA01_u18108378\\Architecture_API\\Architecture_API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-30T08:33:25.51Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

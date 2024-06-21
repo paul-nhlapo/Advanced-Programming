@@ -1,0 +1,51 @@
+<div class="search-bar">
+  <input type="text" [(ngModel)]="searchText" placeholder="Search" (input)="filterProducts()">
+</div>
+<table>
+  <thead>
+    <tr>
+      <th>
+        <span (click)="sortProducts('image', 'asc')"></span>
+      </th>
+      <th>
+        <i class="bi bi-person-check"></i>
+        <span (click)="sortProducts('name', 'asc')">Name</span>
+      </th>
+      <th>
+        <i class="bi bi-currency-exchange"></i>
+        <span (click)="sortProducts('price', 'asc')">Price</span>
+      </th>
+      <th>
+        <i class="bi bi-bag-heart"></i>
+        <span (click)="sortProducts('brand.name', 'asc')">Brand</span>
+      </th>
+      <th>
+        <i class="bi bi-box2-heart"></i>
+        <span (click)="sortProducts('productType.name', 'asc')">Product Type</span>
+      </th>
+      <th>
+        <i class="bi bi-window-plus"></i>
+        <span (click)="sortProducts('description', 'asc')">Description</span>
+      </th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <ng-container *ngIf="filteredProducts.length > 0; else noResults">
+      <tr *ngFor="let product of filteredProducts">
+        <td><img [src]="getImageUrl(product.image)" [alt]="product.name"></td>
+        <td>{{ product.name }}</td>
+        <td>{{ product.price | currency: 'ZAR':'symbol':'1.2-2' }}</td>
+        <td>{{ product.brand.name }}</td>
+        <td>{{ product.productType.name }}</td>
+        <td>{{ product.description }}</td>
+      </tr>
+    </ng-container>
+    <ng-template #noResults>
+      <tr>
+        <td colspan="6">No results found.</td>
+      </tr>
+    </ng-template>
+  </tbody>
+</table>
+

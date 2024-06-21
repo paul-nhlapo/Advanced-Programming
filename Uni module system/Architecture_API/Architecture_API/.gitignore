@@ -1,0 +1,8 @@
+# Compiled files
+*.class
+*.o
+*.pyc
+
+# Bin and obj folders
+bin/
+obj/

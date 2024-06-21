@@ -1,0 +1,18 @@
+#submit-button {
+    background-color: #007bff;
+    color: #fff;
+    margin-right: 8px;
+
+    &:hover {
+        background-color: #0056b3;
+    }
+}
+
+#cancel-button {
+    background-color: #dc3545;
+    color: #fff;
+
+    &:hover {
+        background-color: #c82333;
+    }
+}

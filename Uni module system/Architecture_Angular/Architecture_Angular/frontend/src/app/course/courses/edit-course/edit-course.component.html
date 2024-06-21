@@ -1,0 +1,24 @@
+<div class="container">
+        <div class="row">
+                <div class="col-6 offset-2">
+                        <h1>Edit Course</h1>
+                        <form [formGroup]="courseForm" (ngSubmit)="submitForm()">
+                                <div class="mb-3">
+                                    <label class="form-label">Name</label>
+                                    <input type="text" class="form-control" formControlName="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Duration</label>
+                                    <input type="text" class="form-control" formControlName="duration" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Description</label>
+                                    <textarea class="form-control" formControlName="description" required></textarea>
+                                </div>
+                                <button id="submit" class="btn btn-primary" [disabled]="!courseForm.valid">Save</button>
+                                <a id="cancel" class="btn btn-warning" style="margin-left: 2px;" routerLink="/">Cancel</a>
+                        </form>
+                </div>
+        </div>
+</div>
+

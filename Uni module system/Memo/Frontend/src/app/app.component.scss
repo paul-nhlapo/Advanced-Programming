@@ -1,0 +1,35 @@
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+#sidebar-wrapper {
+  min-width: 100px; // Reduced width
+  max-height: 100vh;
+  overflow-y: auto;
+  background-color: #7d4be2; // Dark background color
+  height: 100%; // Extend to the bottom of the page
+  position: fixed; // Make it stay in place when scrolling
+}
+
+#page-content-wrapper {
+  width: 100%;
+  padding: 20px;
+}
+
+.list-group-item {
+  cursor: pointer;
+  color: #030303; // White text color
+}
+
+.list-group-item:hover {
+  background-color: #495057; // Slightly lighter color when hovered over
+}
+
+.container-fluid {
+  max-width: 800px;
+}
