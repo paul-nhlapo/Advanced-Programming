@@ -1,6 +1,15 @@
 <ion-header [translucent]="true">
+  <!-- <ion-toolbar color="primary">
+    <ion-title class="ion-text-center">Cart</ion-title>
+  </ion-toolbar> -->
   <ion-toolbar color="primary">
     <ion-title class="ion-text-center">Cart</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon name="cart-outline"></ion-icon>
+        <ion-badge color="danger">{{ getCartItems().length }}</ion-badge>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
