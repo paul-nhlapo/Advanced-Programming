@@ -40,7 +40,7 @@ This project is a **Course Management System** built as a proof-of-concept to de
 2. Configure the database connection in `appsettings.json`:
    ```json
    "ConnectionStrings": {
-       "DefaultConnection": "Server=.;Database=Assignment1;Trusted_Connection=True;MultipleActiveResultSets=True"
+       "DefaultConnection": "Server=.;Database='Add your Database here';Trusted_Connection=True;MultipleActiveResultSets=True"
    }
 3. Open Package Manager Console and run:
 add-migration Initial
