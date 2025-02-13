@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is a **Course Management System** built as a proof-of-concept to demonstrate the efficiency of software development using **Angular** for the frontend and **.NET 7 Web API** for the backend. The application allows users to perform **CRUD (Create, Read, Update, Delete)** operations on course records stored in an **SQL Server** database.
+This project is a **Course Management System** built as a proof-of-concept to demonstrate the efficiency of software development using **Angular** for the front-end and **.NET 7 Web API** for the back-end. The application allows users to perform **CRUD (Create, Read, Update, Delete)** operations on course records stored in an **SQL Server** database.
 
 ## Technologies Used
 
@@ -47,7 +47,7 @@ add-migration Initial
 update-database
 4. Start the API by running the project.
 
-##Frontend (Angular Application)
+### Frontend (Angular Application)
 1. Open the Angular project in Visual Studio Code.
 2. Install dependencies:
 npm install
