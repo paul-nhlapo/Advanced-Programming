@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is a **Course Management System** built  to demonstrate the efficiency of software development using **Angular** for the front-end and **.NET 7 Web API** for the back-end. The application allows users to perform **CRUD (Create, Read, Update, Delete)** operations on course records stored in an **SQL Server** database.
+This project is a **Course Management System** built  to demonstrate the efficiency of software development using **Angular** for the front-end and **.NET 8 Web API** for the back-end. The application allows users to perform **CRUD (Create, Read, Update, Delete)** operations on course records stored in an **SQL Server** database.
 
 ## Technologies Used
 
