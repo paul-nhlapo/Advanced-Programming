@@ -2,12 +2,12 @@
 
 ## Project Overview
 
-This project is a **Course Management System** built as a proof-of-concept to demonstrate the efficiency of software development using **Angular** for the front-end and **.NET 7 Web API** for the back-end. The application allows users to perform **CRUD (Create, Read, Update, Delete)** operations on course records stored in an **SQL Server** database.
+This project is a **Course Management System** built  to demonstrate the efficiency of software development using **Angular** for the front-end and **.NET 7 Web API** for the back-end. The application allows users to perform **CRUD (Create, Read, Update, Delete)** operations on course records stored in an **SQL Server** database.
 
 ## Technologies Used
 
 - **Frontend**: Angular
-- **Backend**: .NET 7 Web API
+- **Backend**: .NET 8 Web API
 - **Database**: Microsoft SQL Server
 - **Tools**: Visual Studio 2022, Visual Studio Code
 
@@ -55,4 +55,4 @@ npm install
 ng serve
 4. Open the browser and navigate to http://localhost:4200/.
 
-This project demonstrates a seamless integration of Angular and .NET 7 Web API for building a functional and efficient Course Management System.
+This project demonstrates a seamless integration of Angular and .NET 8 Web API for building a functional and efficient Course Management System.
