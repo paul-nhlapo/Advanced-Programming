@@ -35,7 +35,7 @@ This project is a **Course Management System** built  to demonstrate the efficie
 
 ## Setup Instructions
 
-### Backend (.NET 7 API)
+### Backend (.NET 8 API)
 1. Open the API project in **Visual Studio 2022**.
 2. Configure the database connection in `appsettings.json`:
    ```json
